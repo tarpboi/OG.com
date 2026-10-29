@@ -1,12 +1,12 @@
 # OG.com Trading Bot
 
 ![Status](https://img.shields.io/badge/status-⚪_roadmap-555?style=flat-square)
-[![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)
+[![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg?style=flat-square&logo=rust)](https://www.rust-lang.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![CI](https://github.com/HarrierOnChain/OG.com/actions/workflows/ci.yml/badge.svg)](https://github.com/HarrierOnChain/OG.com/actions/workflows/ci.yml)
+[![CI](https://github.com/tarpboi/OG.com/actions/workflows/ci.yml/badge.svg)](https://github.com/tarpboi/OG.com/actions/workflows/ci.yml)
 
-> Automated **OG.com trading bot** — Social / multi-outcome. Part of the [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) suite: one execution core, one risk layer, every venue.
+> Automated **OG.com trading bot** — Social / multi-outcome. Part of the [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) suite: one execution core, one risk layer, every venue.
 
 **OG.com** is **live in production today.**
 
@@ -22,7 +22,7 @@ These bots run on OG.com through a single venue adapter on the shared engine —
 | 📊 **Orderbook Imbalance** — the signal *is* the order book, no external feeds |
 | 💰 **Market Making** — be the house, not the gambler (two-sided GTD, inventory skew) |
 
-> Want a strategy not listed here on OG.com? Adapter coverage is demand-driven — [ask](https://t.me/HarrierOnChain).
+> Want a strategy not listed here on OG.com? Adapter coverage is demand-driven — [ask](https://t.me/tarpboi).
 
 ---
 
@@ -31,7 +31,7 @@ These bots run on OG.com through a single venue adapter on the shared engine —
 Clone, drop in your keys, and run — the TUI lets you pick a strategy.
 
 ```bash
-git clone https://github.com/HarrierOnChain/OG.com.git
+git clone https://github.com/tarpboi/OG.com.git
 cd OG.com
 cp config.example.yaml config.yaml   # add your keys
 cargo run --release                  # launch the TUI
@@ -44,7 +44,7 @@ cargo run --release                  # launch the TUI
 
 This repo is the **OG.com** entry point. The execution core, risk layer, and all 20+ venue adapters live in the main toolkit:
 
-### 👉 **[Prediction-Markets-Trading-Bot-Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)** — the full suite
+### 👉 **[Prediction-Markets-Trading-Bot-Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)** — the full suite
 
 | | |
 |---|---|
@@ -61,9 +61,9 @@ Adding a venue means writing **one adapter** — not rebuilding a bot.
 
 | Platform | Link |
 |----------|------|
-| **Full toolkit** | [Prediction-Markets-Trading-Bot-Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) |
-| **Telegram** | [@HarrierOnChain](https://t.me/HarrierOnChain) |
-| **Discussions** | [GitHub Discussions](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits/discussions) |
+| **Full toolkit** | [Prediction-Markets-Trading-Bot-Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) |
+| **Telegram** | [@tarpboi](https://t.me/tarpboi) |
+| **Discussions** | [GitHub Discussions](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits/discussions) |
 
 *Response time is typically within a few hours.*
 
@@ -71,9 +71,9 @@ Adding a venue means writing **one adapter** — not rebuilding a bot.
 
 ## Related venues
 
-[Kalshi](https://github.com/HarrierOnChain/Kalshi) · [Polymarket](https://github.com/HarrierOnChain/Polymarket) · [Azuro](https://github.com/HarrierOnChain/Azuro) · [Drift BET](https://github.com/HarrierOnChain/Drift-BET)
+[Kalshi](https://github.com/tarpboi/Kalshi) · [Polymarket](https://github.com/tarpboi/Polymarket) · [Azuro](https://github.com/tarpboi/Azuro) · [Drift BET](https://github.com/tarpboi/Drift-BET)
 
-> Browse the full venue directory in the [main toolkit →](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)
+> Browse the full venue directory in the [main toolkit →](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)
 
 ---
 
@@ -85,8 +85,8 @@ Adding a venue means writing **one adapter** — not rebuilding a bot.
 
 <div align="center">
 
-**OG.com trading bot · built on the [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) engine**
+**OG.com trading bot · built on the [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) engine**
 
-[![Telegram](https://img.shields.io/badge/Telegram-@HarrierOnChain-26A5E4?style=flat-square&logo=telegram)](https://t.me/HarrierOnChain)
+[![Telegram](https://img.shields.io/badge/Telegram-@tarpboi-26A5E4?style=flat-square&logo=telegram)](https://t.me/tarpboi)
 
 </div>
