@@ -17,9 +17,9 @@ These are the strategies mapped to OG.com. They run here once its adapter is wir
 
 | Strategy |
 |----------|
-| 🏆 **Sports Execution** — click, filled, done — FAK |
+| 🏆 **Sports Execution** — type it, filled, done, from the terminal |
 | 📊 **Orderbook Imbalance** — the signal *is* the order book, no external feeds |
-| 💰 **Market Making** — be the house, not the gambler (two-sided GTD, inventory skew) |
+| 💰 **Market Making** — quote both sides, leaning away from your inventory |
 
 > Want a strategy not listed here on OG.com? Adapter coverage is demand-driven — [ask](https://t.me/tarpboi).
 
@@ -69,7 +69,7 @@ Adding a venue means writing **one adapter** — not rebuilding a bot.
 
 ## Related venues
 
-[Kalshi](https://github.com/tarpboi/Kalshi) · [Polymarket](https://github.com/tarpboi/Polymarket) · [Azuro](https://github.com/tarpboi/Azuro) · [Drift BET](https://github.com/tarpboi/Drift-BET)
+[Kalshi](https://github.com/tarpboi/Kalshi) · [Polymarket](https://github.com/tarpboi/Polymarket) · [Predict.fun](https://github.com/tarpboi/Predict.fun) · [Azuro](https://github.com/tarpboi/Azuro)
 
 > Browse the full venue directory in the [main toolkit →](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)
 
